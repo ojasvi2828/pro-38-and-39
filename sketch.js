@@ -82,7 +82,7 @@ function setup() {
 
 function draw() {
   
-  background(180);
+  background("lightBlue");
   //displaying score
   text("Score: "+ score, camera.position.x+200,50);
   console.log(getFrameRate());
